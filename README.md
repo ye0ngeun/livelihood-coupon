@@ -50,8 +50,6 @@ curl -X POST localhost:8080/api/account/withdraw \
   -d '{"accountNumber":"ACC10001","amount":1000,"simulateDelay":500}'
 ```
 
-> [확인 필요: 포트 번호. application.yml이 gitignore라 저장소에 없음]
-
 ## 기술
 
 Java, Spring Boot, Spring Data JPA, MySQL
